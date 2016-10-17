@@ -2,6 +2,14 @@
 
 Opinionated Haskell project templates.
 
+Create a library:
+
+    stack new foobar https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles
+
+..with networking and file I/O:
+
+    stack new foobar https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-network-service-library.hsfiles
+
 ## Synopsis
 
 Templates for `stack new`, complementing the templates found in the [stack-templates](https://github.com/commercialhaskell/stack-templates) project.
