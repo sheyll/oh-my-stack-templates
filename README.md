@@ -1,8 +1,10 @@
 # oh-my-stack-templates
 
-Simple and stupid community Haskell project templates. (Just PR it)
+Collection of community Haskell project templates.
 
-## Synopsis
+**Contributions are welcome! Please refer to: [contributing](CONTRIBUTING.markdown)**            
+
+## Wait, what?
 
 Templates for `stack new`, complementing the templates found in the [stack-templates](https://github.com/commercialhaskell/stack-templates) project.
 
@@ -18,8 +20,6 @@ Templates for `stack new`, complementing the templates found in the [stack-templ
 5. To override global settings, e.g. to use the organizations github user instead of your personal, supply corresponding `-p "key:value"` parameters, e.g.:
 
     stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:machine-learning" -p "github-username:cyberdyne"
-
-**Contributions are welcome! Please refer to: [contributing](CONTRIBUTING.markdown)**            
 
 # Available Templates 
 
