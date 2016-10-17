@@ -15,9 +15,8 @@ If you want make **your** beloved **template available to others**:
 
 ## Subsection in README
 
-Humans recognize patterns very efficiently, so if all templates listed follow a common structure, 
-it is less mental overhead to _browse_ a long list of templates.
-
+I like patterns, so if all templates listed follow a common structure, 
+I believe, that I need less adenosine triphosphate to _browse_ through a long list of templates.
 
 The suggested structure is:
 
