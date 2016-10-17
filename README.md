@@ -24,11 +24,11 @@ I suggest it might make sense to gather many templates in order to deduce the re
 3. Define `author-email`, `author-name`, `github-username` and `copyright` in `~/.stack/config.yaml`
 4. Run `stack new <projectname> <template-url> -p "category:<hackage-category>"`, e.g.:
 
-    stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:machine-learning"
+    stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:Machine Learning"
 
 5. To override global settings, e.g. to use the organizations github user instead of your personal, supply corresponding `-p "key:value"` parameters, e.g.:
 
-    stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:machine-learning" -p "github-username:cyberdyne"
+    stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:Machine Learning" -p "github-username:cyberdyne"
 
 # Available Templates 
 
