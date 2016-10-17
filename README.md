@@ -10,9 +10,15 @@ Templates for `stack new`, complementing the templates found in the [stack-templ
 
 1. Pick a template from below and copy the URL of the template.
 2. Change to the top-level directory where you keep your projects.
-3. Run `stack new <projectname> <template-url>`, e.g.:
+3. Define `author-email`, `author-name`, `github-username` and `copyright` in `~/.stack/config.yaml`
+4. Run `stack new <projectname> <template-url> -p "category:<hackage-category>"`, e.g.:
 
-    stack new projectname https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles
+    stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:machine-learning"
+
+5. To override global settings, e.g. to use the organizations github user instead of your personal, supply corresponding `-p "key:value"` parameters, e.g.:
+
+    stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:machine-learning" -p "github-username:cyberdyne"
+
 
 # Available Templates 
 
