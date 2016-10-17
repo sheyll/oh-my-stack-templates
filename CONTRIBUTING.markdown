@@ -5,8 +5,15 @@ For considering to contribute :)
 
 You are welcome to **change anything you like**. 
 
-If you only want to add your beloved template, and make it popular and accessible, add
-a section to the [README](README.markdown).
+If you want make **your** beloved **template available to others**:
+
+1. Fork this project
+2. Add your `.hsfiles` files
+3. Add a section to the [README](README.markdown) - see [Subsection in README]
+4. Create a pull-request.
+   (I will **always** and **blindly** accept any pull-request)
+
+## Subsection in README
 
 Humans recognize patterns very efficiently, so if all templates listed follow a common structure, 
 it is less mental overhead to _browse_ a long list of templates.
