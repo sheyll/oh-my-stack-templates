@@ -9,7 +9,7 @@ If you want make **your** beloved **template available to others**:
 
 1. Fork this project
 2. Add your `.hsfiles` files
-3. Add a section to the [README](README.markdown) - see (Subsection in README)
+3. Add a section to the [README](README.markdown) - (see "Subsection in README" below)
 4. Create a pull-request.
    (I will **always** and **blindly** accept any pull-request)
 
