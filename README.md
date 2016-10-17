@@ -19,6 +19,7 @@ Templates for `stack new`, complementing the templates found in the [stack-templ
 
     stack new skynet-core https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles -p "category:machine-learning" -p "github-username:cyberdyne"
 
+**Contributions are welcome! Please refer to: [contributing](CONTRIBUTING.markdown)**            
 
 # Available Templates 
 
@@ -26,13 +27,6 @@ Templates for `stack new`, complementing the templates found in the [stack-templ
 
 * [sheyll-library](https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles)
 * [sheyll-network-service-library](https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-network-service-library.hsfiles)
-
-### Source Directories
-
-    /src
-        /library
-        /tests
-        /benchmarks
 
 ### Features
 
@@ -54,3 +48,26 @@ Templates for `stack new`, complementing the templates found in the [stack-templ
 
 * Super-set of `sheyll-library`
 * Additional _IO-ish_ dependencies: `resource`, `process`, `random`, `async`, `stm`, `network`, `streaming-commons`
+
+### Build Commands and Flags
+
+* Compile with `printf-debugging` enabled:
+    
+    stack build -f projectname:printfdebugging
+
+* Run only light-weight tests:
+    
+    stack test -f projectname:-fulltests
+   
+* Run only light-weight benchmarks:
+    
+    stack test -f projectname:-fullbenchmarks
+
+
+### Source Directories
+
+    /src
+        /library
+        /tests
+        /benchmarks
+
