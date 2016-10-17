@@ -1,6 +1,6 @@
 # oh-my-stack-templates
 
-
+Opinionated Haskell project templates.
 
 ## Synopsis
 
