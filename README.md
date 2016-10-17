@@ -8,6 +8,15 @@ Collection of community Haskell project templates.
 
 Templates for `stack new`, complementing the templates found in the [stack-templates](https://github.com/commercialhaskell/stack-templates) project.
 
+The `stack-templates` project is currently searching a solution for modular, composable, upgradable, generic, safe stack templates.
+
+Currently(10/2016) they are not too fond of PRs for new templates, until the general direction has been decided.
+
+That's why this project was created. Until a correct solution has been found, I suggest we gather all our templates in here, 
+and then kill this project as soon as `stack-templates` is done. 
+
+I suggest it might make sense to gather many templates in order to deduce the requirements for a project like `stack-templates`.
+
 ## Usage
 
 1. Pick a template from below and copy the URL of the template.
