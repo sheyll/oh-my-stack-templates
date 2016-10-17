@@ -21,6 +21,13 @@ Templates for `stack new`, complementing the templates found in the [stack-templ
 * [sheyll-library](https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-library.hsfiles)
 * [sheyll-network-service-library](https://github.com/sheyll/oh-my-stack-templates/raw/master/sheyll-network-service-library.hsfiles)
 
+### Source Directories
+
+    /src
+        /library
+        /tests
+        /benchmarks
+
 ### Features
 
 #### `sheyll-library`
