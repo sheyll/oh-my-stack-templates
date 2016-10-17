@@ -19,8 +19,8 @@ I suggest it might make sense to gather many templates in order to deduce the re
 
 ## Usage
 
-1. Pick a template from below and copy the URL of the template.
-2. Change to the top-level directory where you keep your projects.
+1. Pick a template from below and copy the URL of the template (e.g. by right clicking).
+2. Open a (git-) shell, change to the top-level directory your projects, project sub directories will be created automatically.
 3. Define `author-email`, `author-name`, `github-username` and `copyright` in `~/.stack/config.yaml`
 4. Run `stack new <projectname> <template-url> -p "category:<hackage-category>"`, e.g.:
 
